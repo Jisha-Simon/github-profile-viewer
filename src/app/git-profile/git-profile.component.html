@@ -1,6 +1,6 @@
 <div class="form">
     <mat-form-field class="example-full-width">
-        <input matInput placeholder="GitHub User Name" [(ngModel)]="username" value="">
+        <input matInput placeholder="GitHub User Name" [(ngModel)]="username" (keyup.enter)="getData()" value="">
     </mat-form-field>
     <div class="example-button-row">
         <button mat-raised-button color="primary" (click)="getData()">Find Me</button>
