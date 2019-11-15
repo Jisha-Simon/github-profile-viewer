@@ -1,1 +1,35 @@
 /* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+.example-full-width{
+    width: 500px;
+    padding-top: 40px;
+    margin-left: 450px;
+}
+.example-button-row{
+    margin-left: 450px;
+}
+.card1{
+    width: 500px;
+    margin-left: 450px;
+    margin-top: 20px;
+    background-color: rgb(53, 53, 177);
+    color: white;
+}
+.location{
+    color: white;
+}
+a{
+    color: white;
+}
+.card2{
+    width: 500px;
+    margin-left: 450px;
+    background-color: rgb(53, 53, 177);
+    margin-top: 20px;
+    color: white;
+}
+.spinner {
+    margin-left: 450px;
+  }
